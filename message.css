@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: url('images/background.jpg') no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px; /* Menambah lebar maksimal */
+  padding: 40px; /* Menambah padding untuk ruang yang lebih besar */
+  background: rgba(0, 0, 0, 0.7); /* Transparansi lebih gelap untuk konten */
+  border-radius: 20px; /* Membuat sudut lebih bulat */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Menambah shadow untuk efek kedalaman */
+  width: 90%; /* Memastikan ukuran kotak mengikuti lebar layar */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem; /* Membesarkan ukuran judul */
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.2rem; /* Menyesuaikan ukuran font untuk kenyamanan baca */
+  line-height: 1.6;
+}
+
+#whatsapp-btn {
+  margin-top: 30px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+#whatsapp-btn img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+  cursor: pointer;
+}
+
+#whatsapp-btn:hover {
+  opacity: 0.8;
+}

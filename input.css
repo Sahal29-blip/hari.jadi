@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: url('images/background.jpg') no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6); /* Transparansi untuk memperjelas konten */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: rgb(78, 78, 250);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
